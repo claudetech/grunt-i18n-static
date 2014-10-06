@@ -13,6 +13,7 @@ module.exports = (grunt) ->
       fixPaths: true
       locale: 'en'
       files: '**/*.html'
+      exclude: []
       baseDir: process.cwd()
       removeAttr: true
       outputDir: undefined
