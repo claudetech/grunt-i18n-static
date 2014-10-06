@@ -1,6 +1,6 @@
 {
   "name": "grunt-i18n-static",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Task to translate static html",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,6 @@
   "homepage": "https://github.com/claudetech/grunt-i18n-static",
   "dependencies": {
     "lodash": "^2.4.1",
-    "static-i18n": "^0.1.4"
+    "static-i18n": "^0.1.5"
   }
 }
