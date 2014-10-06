@@ -14,6 +14,7 @@ module.exports = (grunt) ->
       locale: 'en'
       files: '**/*.html'
       exclude: []
+      allowHtml: false
       baseDir: process.cwd()
       removeAttr: true
       outputDir: undefined
