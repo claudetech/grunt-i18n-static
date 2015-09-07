@@ -1,6 +1,6 @@
 {
   "name": "grunt-i18n-static",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "Task to translate static html",
   "main": "index.js",
   "scripts": {

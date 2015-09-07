@@ -26,7 +26,8 @@ module.exports = (grunt) ->
       outputOverride: {}
       encoding: 'utf8'
       i18n:
-        resGetPath: 'locales/__lng__.json'
+        resGetPath: undefined
+        lng: undefined
     )
 
     staticI18n.processDir options.baseDir, options, (err) ->
