@@ -30,8 +30,8 @@ module.exports = (grunt) ->
         lng: undefined
     )
 
-    staticI18n.processDir options.baseDir, options, (err) ->
-      if err?
-        grunt.log.error "Failed to compile: #{err}"
-        grunt.fail.warn "i18n task failed"
-      done()
+    (staticI18n.processDir options.baseDir, options)
+        .then(done).catch((err) ->
+            grunt.log.error 'Failed to compile: #{err}'
+            grunt.fail.warn 'i18n task failed'
+        )
